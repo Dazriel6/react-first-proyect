@@ -7,14 +7,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
-  <>
     <Tarjeta 
         name="Dan Angles"
         age={23}
-        graduated={true}
+        graduated={false}
         points={[99,55,66.2]}
-        
-        
         />
-  </>
 );
