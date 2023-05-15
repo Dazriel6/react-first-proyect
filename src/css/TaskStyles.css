@@ -1,0 +1,22 @@
+.Navbar{
+    /* margin: 0 auto; */
+    background-color: lightcyan;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li {
+    background-color: coral;
+    margin: 0 auto;
+}
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
