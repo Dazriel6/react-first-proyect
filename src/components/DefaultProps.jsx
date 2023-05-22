@@ -1,18 +1,21 @@
-import PropTypes from 'prop-types'
-function Button ({text}){
-    return <button> {text}</button>
-}
+import PropTypes from "prop-types";
 
+
+function Button({ text }) {
+  return <button onClick= {()=>{
+      alert('Hola');
+  }}> {text}</button>;
+}
 
 // PropTypes permite generar mensajes para observar si se esta pasando un tipo de dato incorrecto mediante los props
 
-Button.propTypes= {
-    text: PropTypes.string.isRequired
-}
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 Button.defaultProps = {
-    text: "Que hay"
-    //valor por defecto separado del componente
-}
+  text: "Que hay",
+  //valor por defecto separado del componente
+};
 
- export default Button
+export default Button;
