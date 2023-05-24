@@ -12,7 +12,7 @@ root.render(
   <>
     <Navbar ready={true} />
     <TaskCard />
-    <Button text="Hi"></Button>
+    <Button text="Nose"></Button>
     <Input/>
   </>
 );
