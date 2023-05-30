@@ -9,12 +9,25 @@ import {Card1} from "./components/Card"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+const names = [
+  {
+    id: 1,
+    name:'Dan Angles',
+    age: 23
+  },
+  {
+    id: 2,
+    name:'Azriel Soberano',
+    age: 23
+  }
+];
+
 root.render(
   <>
-    <Navbar ready={true} />
+    {/* <Navbar ready={true} />
     <TaskCard />
-    <Button text="Nose"></Button>
-    <Card1/>
-    <Input/>
+    <Button text="Nose"></Button> */}
+    <Card1 data={names[0]}/>
+    {/* <Input/> */}
   </>
 );
